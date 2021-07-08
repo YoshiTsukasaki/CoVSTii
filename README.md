@@ -1,4 +1,4 @@
-## Computer-Vision Stabilization software in CASTii
+## Computer-Vision Stabilization software in CoVSTii
 Computer-vision stabilization is a LabVIEW software to correct motion displacement and deformation with computer-vision image registration algorithms, which is a part of Computer-vision Assisted STabilized intravital imaging (CASTii) method.
 Image processing of Computer-Vision Stabilization consists of four distinct steps: (i) feature points detection, (ii) motion tracking, (iii) motion correction and (iv) frame averaging.
 Using the Shi and Tomasi method, the software detects feature points, which are the 'corners' changing rapidly in intensity in the reference image. The software tracks the feature points from the reference image to the paired image using Lucas Kanade optical flow analysis, the algorithm estimating the motion vector between frames. These feature point pairs are then used to calculate a homography matrix, which defines the geometric transformation of the paired images. This perspective transformation matrix is used for motion correction. Furthermore, to reduce the oscillatory motion, the software averages specified frames.
