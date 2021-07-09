@@ -1,5 +1,5 @@
 ## Computer vision image registration algorithm in CoVSTii
-Computer vision image registration algorithm in CoVSTii is a LabVIEW software to correct motion displacement and deformation.
+Computer vision image registration algorithm in CoVSTii is a LabVIEW software to correct image motion displacement and deformation.
 Image processing of Computer vision image registration algorithm consists of four distinct steps: (i) feature points detection, (ii) motion tracking, (iii) motion correction and (iv) frame averaging.
 Using the Shi and Tomasi method, the software detects feature points, which are the 'corners' changing rapidly in intensity in the reference image. The software tracks the feature points from the reference image to the paired image using Lucas Kanade optical flow analysis, the algorithm estimating the motion vector between frames. These feature point pairs are then used to calculate a homography matrix, which defines the geometric transformation of the paired images. This perspective transformation matrix is used for motion correction. Furthermore, to reduce the oscillatory motion, the software averages specified frames.
 
@@ -19,6 +19,6 @@ Python package: mkl 2017.0.1-2 or newer,	numpy 1.11.3-2 or newer,	opencv 2.4.9-5
 -Choose 'perspective transorm.py' in Py file to call on front panel in LabVIEW.  
 -Click white arrow buttom in upper left of application.  
 -Open reference movies in 'Please select Ref data' dialog.  
-Note: File name should include 'Ch1-4' and all data should be in same folder. The only AVI file is available for this software. To test software, please use sample movies n the GitHub releases pages ('Sample-Ch1.avi', 'Sample-Ch2.avi', 'Sample-Ch4.avi').  
+Note: File name should include 'Ch1-4' and all data should be in same folder. The only AVI file is available for this software. To test software, please use sample movies of the GitHub releases pages ('Sample-Ch1.avi', 'Sample-Ch2.avi', 'Sample-Ch4.avi').  
 -Stabilization results will appear into the folder with reference movies file.   
 
