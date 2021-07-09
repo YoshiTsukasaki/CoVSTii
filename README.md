@@ -13,8 +13,8 @@ Python package: mkl 2017.0.1-2 or newer,	numpy 1.11.3-2 or newer,	opencv 2.4.9-5
 
 ### 2. How-to-execute
 -Install LabVIEW and LabVIEW add-on modules and python and python modules.  
--Go to the GitHub releases page, download 'Computer-Vision Stabilization_Open Source.llb' and 'Perspective trasform.py'.  
--Open the downloaded LLB file in LabVIEW and then choose 'Computer-Vision Stabilization_Open Source.vi'.  
+-Go to the GitHub releases page, download 'Computer vision image registration algorighm full_Open Source.llb' and 'Perspective trasform.py'.  
+-Open the downloaded LLB file in LabVIEW and then choose 'Computer vision image registration algorighm full_Open Source_Open Source.vi'.  
 -Choose 'python.exe' in Python to call on front panel in LabVIEW.  
 -Choose 'perspective transorm.py' in Py file to call on front panel in LabVIEW.  
 -Click white arrow buttom in upper left of application.  
