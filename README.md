@@ -56,7 +56,7 @@ d)	“Average frame number”, (Default value is “14”), is used to down-samp
 
 ### Run the application
 To run the application, you can either select “Run” from the “Operate” menu or click on the white arrow. A window opens to select the reference channel. You can choose “Sample-Ch1.avi” from our provided sample data in the “test” folder. The program will start doing the stabilization process and save the results in the same folder. 
-For each input channel, there will be three outputs: 
+For each input channel, there will be three outputs:  
 a)	“…-Stabilize.avi”, which is the stabilized video of the input.   
 b)	“…-Stabilize_NorAve.avi”, which is the down-sampled version of the stabilized output (based on the parameter “Average frame number”).   
 c)	“…-Ch1_NorAve.avi”, which is actually the down-sampled version of the input (used for comparison).  
