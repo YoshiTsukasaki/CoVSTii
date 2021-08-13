@@ -21,12 +21,12 @@ b)	Enthought Python Integration Toolkit for LabVIEW 1.2.0 or newer (required by 
     iii)	opencv 2.4.9-5 or newer (required by Python-OpenCV function in LabVIEW)
 
 ### 2. Installation
-### a) LabVIEW
+a) LabVIEW
 Installing LabVIEW and LabVIEW add-on modules and python and python modules.
 To install LabVIEW go to https://www.ni.com/en-us/shop/labview/select-edition.html.
 You may need to create an NI account to be able to purchase and download LabVIEW VI Package Manager (VIPM). Using VIPM you can choose the required modules and packages to be installed with your LabVIEW software.
 
-### b) Computer vision image registration algorithm
+b) Computer vision image registration algorithm
 To download our computer vision image registration algorithm, go to the GitHub releases page, https://github.com/YoshiTsukasaki/CoVSTii.
 Option 1: You can download the whole GitHub directory into your computer by clicking on “Code” and then “Downlod ZIP”. This will put all the files in a zip file named “CoVSTii-main.zip” that you can extract and use (you can go the next step if you choose this option).
 Option 2: The other way is to download the following files, separately,
