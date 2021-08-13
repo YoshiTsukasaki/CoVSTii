@@ -27,8 +27,8 @@ To install LabVIEW go to https://www.ni.com/en-us/shop/labview/select-edition.ht
 You may need to create an NI account to be able to purchase and download LabVIEW VI Package Manager (VIPM). Using VIPM you can choose the required modules and packages to be installed with your LabVIEW software.  
 b) Computer vision image registration algorithm  
 To download our computer vision image registration algorithm, go to the GitHub releases page, https://github.com/YoshiTsukasaki/CoVSTii.  
-  Option 1: You can download the whole GitHub directory into your computer by clicking on “Code” and then “Downlod ZIP”. This will put all the files in a zip file named “CoVSTii-    main.zip” that you can extract and use (you can go the next step if you choose this option).  
-  Option 2: The other way is to download the following files, separately, 'Computer vision image registration algorighm full_Open Source.llb' and 'Perspective trasform.py'.  
+Option 1: You can download the whole GitHub directory into your computer by clicking on “Code” and then “Downlod ZIP”. This will put all the files in a zip file named “CoVSTii-    main.zip” that you can extract and use (you can go the next step if you choose this option).  
+Option 2: The other way is to download the following files, separately, 'Computer vision image registration algorighm full_Open Source.llb' and 'Perspective trasform.py'.  
 You may put both files in a folder in your working directory. Also, in the GitHub page, there are three sample AVI files that you can download to test the application.
 
 ### 3. Running the application
@@ -46,10 +46,10 @@ Before executing the application, you may change the following parameters:
 a)	“Tracking”: (Default value is “on”) You can turn off or on the illustration of the optical flow tracking algorithm. This doesn’t affect the stabilization procedure.  
 b)	“Setting feature point number”: (Default value is “500”) This parameter defines the number of feature points extracted to be used in the optical flow tracking algorithm. You may increase this value if your data has a lot of deformations.  
 c)	“Optical Flow Setting”: These settings specify the options that are used to track features between two successive frames.   
-&nbspi)	“Level”, (Default value is “6”), specify the number of pyramid levels to use. Higher level values help to track larger motions, but costs more running time.  
-&nbspii)	“Max. Iterations”, (Default value is “20”), identifies the maximum number of iterations in the optimization step of the tracking algorithm at each level. The higher this  value, the more accurate stabilizations; but costs more running time.  
-&nbspiii)	“Window Size”, n, (Default value is “30”), defines the size (n×n) of the patch window around each feature point that is used to search for a match. You may increase this  value if your data has big motions.  
-&nbspiv)	“Dis&nbspplacement Threshold”, (Default value is “0.1”), defines the minimum allowed displacement between the location of the tracked features from iteration to iteration. So, if   the position of a feature point does not move more than the “Displacement Threshold” from its previous location, its current location is finalized and not tracked anymore. The     lower this value, the more accurate stabilizations; but costs more running time.  
+i)	“Level”, (Default value is “6”), specify the number of pyramid levels to use. Higher level values help to track larger motions, but costs more running time.  
+ii)	“Max. Iterations”, (Default value is “20”), identifies the maximum number of iterations in the optimization step of the tracking algorithm at each level. The higher this  value, the more accurate stabilizations; but costs more running time.  
+iii)	“Window Size”, n, (Default value is “30”), defines the size (n×n) of the patch window around each feature point that is used to search for a match. You may increase this  value if your data has big motions.  
+iv)	“Dis&nbspplacement Threshold”, (Default value is “0.1”), defines the minimum allowed displacement between the location of the tracked features from iteration to iteration. So, if   the position of a feature point does not move more than the “Displacement Threshold” from its previous location, its current location is finalized and not tracked anymore. The lower this value, the more accurate stabilizations; but costs more running time.  
 d)	“Average frame number”, (Default value is “14”), is used to down-sample the output files by averaging the specified number of frames.  
 
 ### Run the application
