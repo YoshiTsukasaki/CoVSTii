@@ -16,9 +16,9 @@ h)	LabVIEW add-on modules.
 i)	Vision Development Module 2017 or newer (required by image processing in LabVIEW).  
 j)	Enthought Python Integration Toolkit for LabVIEW 1.2.0 or newer (required by Python-OpenCV function in LabVIEW).  
 k)	Python 2.7.13 or newer (required by Python-OpenCV function in LabVIEW) with following packages.  
-&nbspi)	mkl 2017.0.1-2 or newer.  
-&nbspii)	numpy 1.11.3-2 or newer.  
-&nbspiii)	opencv 2.4.9-5 or newer (required by Python-OpenCV function in LabVIEW)
+i)	mkl 2017.0.1-2 or newer.  
+ii)	numpy 1.11.3-2 or newer.  
+iii)	opencv 2.4.9-5 or newer (required by Python-OpenCV function in LabVIEW)
 
 ### 2. Installation
 a) LabVIEW  
