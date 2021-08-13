@@ -8,7 +8,7 @@ Using the Shi and Tomasi method, the software detects feature points, which are 
 a)	Windows 10/8.11/7 SP1.
 b)	Pentium 4 G1 equivalent (Intel i5 equivalent or higher recommended).
 c)	4 GB disk space.
-d)	4 GB RAM [You may need more RAM for large datasets].
+d)	4 GB RAM (You may need more RAM for large datasets).
 e)	.NET Framework 4.6.
 f)	1024 x 768 resolution (1366 x 768 or higher recommended)
 g)	We recommend 32-bit LabVIEW 2017 17.0f2 or newer on Windows 7 or newer.
