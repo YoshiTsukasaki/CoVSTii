@@ -32,7 +32,7 @@ To download our computer vision image registration algorithm, go to the GitHub r
 You may put both files in a folder in your working directory. Also, in the GitHub page, there are three sample AVI files that you can download to test the application.
 
 ### 3. Running the application
-Here are the step by step instructions to open and load computer vision image registration algorithm:　　
+Here are the step by step instructions to open and load computer vision image registration algorithm:  
 a)	Open LabVIEW and click on “Open Existing”.  
 b)	Locate the downloaded LLB file (“Computer vision image registration algorighm full_Open Source.llb”), choose it, and press “OK”.  
 c)	A window may appear for selecting the “vi” file. Choose “Computer vision image registration algorighm full_Open Source.vi”, and press “OK”.  
