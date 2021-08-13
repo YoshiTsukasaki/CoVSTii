@@ -41,6 +41,16 @@ b)	Locate the downloaded LLB file (“Computer vision image registration algorig
 c)	A window may appear for selecting the “vi” file. Choose “Computer vision image registration algorighm full_Open Source.vi”, and press “OK”.
 d)	The “vi” file will automatically load the required modules and packages and the program interface will appear.
 
+a) Open LabVIEW and click on “Open Existing”.
+
+
+b) Locate the downloaded LLB file (“Computer vision image registration algorighm full_Open Source.llb”), choose it, and press “OK”.
+To download our computer vision image registration algorithm, go to the GitHub releases page, https://github.com/YoshiTsukasaki/CoVSTii.
+Option 1: You can download the whole GitHub directory into your computer by clicking on “Code” and then “Downlod ZIP”. This will put all the files in a zip file named “CoVSTii-main.zip” that you can extract and use (you can go the next step if you choose this option).
+Option 2: The other way is to download the following files, separately,
+-'Computer vision image registration algorighm full_Open Source.llb' and 
+
+
 ### Naming the Input files
 The current version of our software only accepts AVI files. At least one AVI file is needed to be fed to the software. If you have more channels, you need to name them in accordance to the reference channel. For example, if the reference channel is named “Sample-Ch1.avi”, the other channels should be named as “Sample-Ch2.avi”, Sample-Ch3.avi, …. (“Sample-”) in the same folder with reference movie. Please note that the software stabilizes your data based on the reference channel.
 
